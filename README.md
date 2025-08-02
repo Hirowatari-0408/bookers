@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Bookers アプリケーション
 
-Things you may want to cover:
+## アプリケーション概要
+読んだ本の感想を投稿し、共有できるWebアプリケーション
 
-* Ruby version
+## 主な機能
+- 本の感想を投稿する機能（Create）
+- 投稿された感想の一覧を見る機能（Read）
+- 投稿した感想を編集する機能（Update）
+- 投稿した感想を削除する機能（Destroy）
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 使用技術
+- Ruby on Rails 6.1.7.7
