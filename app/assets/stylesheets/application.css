@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+
+.books-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.books-table th, .books-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.books-table th:nth-child(3),
+.books-table td:nth-child(3),
+.books-table th:nth-child(4),
+.books-table td:nth-child(4),
+.books-table th:nth-child(5),
+.books-table td:nth-child(5) {
+  width: auto;
+  min-width: 50px;
+}
